@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "leavesdecaypatcher",
+  "version": "${version}",
+  "name": "LeavesDecayPatcher",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/leavesdecaypatcher/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.polyakhovav.leavesdecaypatcher.LeavesDecayPatcher"
+    ]
+  },
+  "mixins": [
+    "leavesdecaypatcher.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
